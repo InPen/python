@@ -7,11 +7,15 @@ guess = input("guess a number to enter:")
 print("you chose", guess)
 # Create a while loop, ending when guess is equal to answer.
 while True:
-    if guess == answer:
-        print("You guessed right, you may enter The Chamber of Secretsss")
-    elif guess != answer:
+    if guess != answer:
         print("wrong numbersss, guessss again")
-    else:
-        print(guess)
+        # break
+        guess
+    elif guess == answer:
+        print("You guessed right, you may enter The Chamber of Secretsss")
+        break
+    # else:
+    #     print("guessss again")
+    #     guess
 # In the while loop, prompt the user for a new guess.
 # After the while loop
