@@ -3,19 +3,16 @@
 # Unit 1
 
 movie_titles = ['Aaladin', 'Hercules', 'ALL Harry Potter Movies', 'Frida']
+movie_titles_set = set(movie_titles)
 movie_ratings = 8
-# print("The movie", movie_title, "is ", movie_ratings)
-# print("The movie " + str(movie_title) + " is " + str(movie_ratings))
+# print("The movie", movie_titles, "is ", movie_ratings)
+# print("The movie " + str(movie_titles) + " is " + str(movie_ratings))
 
 # Unit 2
 
 def print_rating(movie_title):
-    print('The rating for', movie_title, 'is', movie_ratings)
-
-
-# this is the main function that will be invoked at the end of the file
-# def main():
-
+    for movie_title in movie_titles:
+        print('The rating for', movie_titles[2], 'is', movie_ratings)
 
     # mode
 
@@ -38,8 +35,8 @@ def print_rating(movie_title):
 
 
 
-
-
+# this is the main function that will be invoked at the end of the file
+# def main():
 
 
 # dunder main
