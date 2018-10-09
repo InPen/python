@@ -9,6 +9,11 @@ movie_ratings = 8
 
 # Unit 2
 
+# musicians = {'guitar': 'robby', 'vocals': 'john lennon', 'bass': 'john paul jones', 'drums': 'bill ward'}
+#
+# for instrument, musician in musicians.items():
+#   print("Now introducing {0} on the {1}, they {2}".format(musician, instrument, 'ROCK'))
+
 def print_rating(movie_title):
     for movie_title in movie_titles:
         print(movie_title)
