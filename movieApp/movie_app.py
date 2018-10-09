@@ -11,11 +11,12 @@ movie_ratings = 8
 
 def print_rating(movie_title):
     for movie_title in movie_titles:
-        print('The rating for', movie_title, 'is', movie_ratings)
+        print(movie_title)
 
 print_rating(movie_titles)
 
 def print_all_ratings(movie_titles):
+    print('The rating for', movie_title, 'is', movie_ratings)
 
     # mode
 
