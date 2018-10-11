@@ -8,3 +8,20 @@ class Dog:
 
 snooky = Dog('Snooky', 7)
 snooky.bark()
+
+
+class WaterGlass:
+    def __init__(self, capacity, amount=0):
+        self.capacity = capacity
+        self.amount = amount
+    def empty(self):
+        self.amount = 0
+    def fill(self):
+        self.amount = self.capacity
+    def drink(self):
+        self.amount -= 1
+
+marias_glass = WaterGlass(12)
+print("maria's glass has", marias_glass.amount, "oz")
+marias_glass.fill()
+print("maria's glass has", marias_glass.amount, "oz")
